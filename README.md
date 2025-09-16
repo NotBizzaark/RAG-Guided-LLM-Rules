@@ -6,7 +6,7 @@ RAG-Guided LLM Rules – A Retrieval-Augmented Generation pipeline that teaches 
 
 ---
 
-## 🚀 Overview
+## Overview
 This project demonstrates how to **guide an LLM** to follow organization-specific rules or best practices **without fine-tuning**.
 
 **Key Ideas**
@@ -16,14 +16,14 @@ This project demonstrates how to **guide an LLM** to follow organization-specifi
 
 ---
 
-## ✨ Features
+## Features
 - Framework-agnostic (LangChain, LlamaIndex, etc. compatible).
 - Pluggable vector stores: FAISS by default; swap in Pinecone, Weaviate, or others.
 - Configurable prompts, embedding models, and retrieval thresholds.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Language Model:** Llama3.2.
 - **Vector DB:** FAISS
 - **Python 3.9+** with standard scientific stack.

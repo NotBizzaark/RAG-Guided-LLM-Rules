@@ -11,7 +11,7 @@ This project demonstrates how to **guide an LLM** to follow organization-specifi
 
 **Key Ideas**
 - **Central rulebase:** Policies, style guides, or compliance requirements are stored as plain text or Markdown.
-- **Retriever + Generator:** At query time, relevant rules are fetched from a vector database and injected into the prompt.
+- **Retriever + Generator:** At query time, relevant rules are fetched from a vector database/text-file and injected into the prompt.
 - **Auditable outputs:** Each response is traceable to the specific rules that influenced it.
 
 ---
